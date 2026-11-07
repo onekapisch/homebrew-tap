@@ -3,8 +3,12 @@
 Homebrew casks for [OneKapisch](https://www.onekapisch.com) apps.
 
 ```sh
+brew tap onekapisch/tap
+brew trust onekapisch/tap
 brew install --cask onekapisch/tap/<cask>
 ```
+
+Homebrew 7 and later only load casks from third-party taps you have trusted, so run `brew tap` and `brew trust` once. After that, each app is a single `brew install --cask` line.
 
 | Cask | App | Install |
 |---|---|---|
