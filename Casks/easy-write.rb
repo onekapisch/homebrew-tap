@@ -1,6 +1,6 @@
 cask "easy-write" do
-  version "2.0.2"
-  sha256 "cc3a7dcd9e9327c536646ec2ed03b01962a5271180131d592286de1636288bd1"
+  version "2.1.0"
+  sha256 "ad76d7f16d223966ac3132b0f026c44ac6dc2848b84038f624f1e492afa86209"
 
   url "https://github.com/onekapisch/easy-write/releases/download/v#{version}/EasyWrite-#{version}.dmg"
   name "Easy Write"
